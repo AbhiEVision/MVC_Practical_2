@@ -2,3 +2,13 @@
     ViewBag.Title = "Home Page";
 }
 
+
+@if(!(ViewBag.Name == null))
+{
+    <h4>@ViewBag.Name</h4>
+}
+else
+{
+    <h4>No name </h4>
+}
+
