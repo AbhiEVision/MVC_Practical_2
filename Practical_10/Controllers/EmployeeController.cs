@@ -2,10 +2,10 @@
 
 namespace Practical_10.Controllers
 {
-	[Route("Home")]
-	public class HomeController : Controller
+	//[Route("Employee")]
+	public class EmployeeController : Controller
 	{
-		[Route("Home/{name}")]
+		//[Route("Employee/{name}")]
 		public ActionResult Index(string name)
 		{
 			if (!string.IsNullOrEmpty(name))

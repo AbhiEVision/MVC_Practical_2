@@ -1,0 +1,1 @@
+﻿Hello this is the string which use for sending the data.
